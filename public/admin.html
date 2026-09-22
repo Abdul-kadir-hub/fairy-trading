@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard | Fairy Trading Co.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+
+  <!-- Password Authentication Modal -->
+  <div id="login-modal" class="auth-overlay">
+    <div class="auth-box">
+      <h2>Fairy Trading Admin Login</h2>
+      <p>Apna secret password enter karein:</p>
+      <input type="password" id="admin-pass-input" placeholder="Password daalein" autocomplete="off">
+      <button onclick="authenticateAdmin()" class="btn-primary full-width">Unlock Panel</button>
+      <p id="login-error" style="color:red; display:none; margin-top:10px;">Galat password! Try again.</p>
+    </div>
+  </div>
+
+  <!-- Dashboard Container (Protected) -->
+  <div class="admin-container" id="admin-content" style="display:none;">
+    <div class="admin-header">
+      <h2>Fairy Trading Co. Control Panel</h2>
+      <a href="/" class="btn-secondary">View Website</a>
+    </div>
+
+    <!-- General Settings -->
+    <div class="admin-section">
+      <h3>Main Settings & Contact Info</h3>
+      <label>Company Name:</label>
+      <input type="text" id="businessName">
+
+      <label>Hero Heading:</label>
+      <input type="text" id="heroTitle">
+
+      <label>Hero Subtitle:</label>
+      <textarea id="heroSubtitle"></textarea>
+
+      <label>WhatsApp Number (Without +, ex: 919876543210):</label>
+      <input type="text" id="whatsappNumber">
+
+      <label>Business / Factory Address:</label>
+      <textarea id="address"></textarea>
+
+      <label>Google Maps Embed Link (iframe src URL):</label>
+      <input type="text" id="mapUrl">
+    </div>
+
+    <!-- Buckle Products Editor -->
+    <div class="admin-section">
+      <div class="flex-between">
+        <h3>Manage Buckle Cards (Title, Details, Photo)</h3>
+        <button type="button" class="btn-primary" onclick="addProduct()">+ Add Buckle</button>
+      </div>
+      <div id="admin-products"></div>
+    </div>
+
+    <!-- Gallery Image Links Editor -->
+    <div class="admin-section">
+      <div class="flex-between">
+        <h3>Manage Gallery Images (URLs)</h3>
+        <button type="button" class="btn-primary" onclick="addGalleryImage()">+ Add Gallery Image</button>
+      </div>
+      <div id="admin-gallery"></div>
+    </div>
+
+    <!-- Staff Editor -->
+    <div class="admin-section">
+      <div class="flex-between">
+        <h3>Manage Staff / Contacts</h3>
+        <button type="button" class="btn-primary" onclick="addStaff()">+ Add Staff</button>
+      </div>
+      <div id="admin-staff"></div>
+    </div>
+
+    <button type="button" class="btn-save-all" onclick="saveAllData()">Save All Changes</button>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

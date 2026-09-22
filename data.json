@@ -1,0 +1,48 @@
+{
+  "businessName": "Fairy Trading Co.",
+  "heroTitle": "Manufacturers & Wholesale Suppliers of All Types of Buckles",
+  "heroSubtitle": "Premium metal, brass, zinc-alloy & nylon buckles for formal trousers, belts, uniforms, and casual garments.",
+  "whatsappNumber": "919224565702",
+  "address": "Indra Chawl Mukund Nagar Joglekar nalla, Road no.7 , Mumbai, Maharashtra",
+  "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.3893703794706!2d72.85575297395016!3d19.046610752897017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9a6d9e760c1%3A0xdfaf2954b3c6f42e!2sFairy%20trading%20co.!5e0!3m2!1sen!2sin!4v1790088590023!5m2!1sen!2sin",
+  "products": [
+    {
+      "id": 1,
+      "title": "Trouser Side Adjuster Buckle",
+      "desc": "Rust-proof, durable sliding buckle specially designed for tailored trousers and suit pants.",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Double Pin Roller Buckle",
+      "desc": "Heavy-duty zinc alloy double prong roller buckle for tactical and heavy fabric belts.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Antique Brass Finish Buckle",
+      "desc": "Premium vintage finish buckle for casual chinos, denim, and jacket straps.",
+      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Matte Black Center Bar Buckle",
+      "desc": "Smooth electroplated matte black finish with exceptional scratch resistance.",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=600&q=80",
+    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+    "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80"
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "Production & Bulk Orders Desk",
+      "role": "Sourcing & Quality Assurance",
+      "phone": "+91 9594086890"
+    }
+  ]
+}
